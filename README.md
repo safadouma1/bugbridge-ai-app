@@ -35,29 +35,29 @@ BugBridge AI récupère le message, le fait analyser par un modèle de langage *
 
  **Tout tourne en local** : aucune donnée n'est envoyée à un service externe, et il n'y a aucun abonnement à une API d'IA payante.
 
-## 📸 Captures d'écran
+##  Captures d'écran
 
 ### Connexion sécurisée
-![Connexion](images/1_connexion.png)
+![Connexion](1_connexion.png)
 
 ### Tableau de bord
 Nombre total de bugs, bugs critiques, répartition par sévérité et par produit.
-![Tableau de bord](images/2_tableau_de_bord.png)
+![Tableau de bord](2_tableau_de_bord.png)
 
 ### Gestion des bugs
 Liste des bugs avec recherche, filtres par sévérité et changement de statut (Nouveau → En cours → Traité).
-![Gestion des bugs](images/3_gestion_des_bugs.png)
+![Gestion des bugs](3_gestion_des_bugs.png)
 
 ### Détail d'un bug
 À gauche, le message original du testeur ; à droite, les informations extraites automatiquement par l'IA.
-![Détail d'un bug](images/4_detail_bug_extrait_par_IA.png)
+![Détail d'un bug](4_detail_bug_extrait_par_IA.png)
 
 ### Statistiques
-![Statistiques](images/5_statistiques.png)
+![Statistiques](5_statistiques.png)
 
 ### Suivi par produit
 Nombre de bugs et taux de résolution pour chaque produit.
-![Produits](images/6_produits.png)
+![Produits](6_produits.png)
 
 ##  Fonctionnalités
 
