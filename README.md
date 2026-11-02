@@ -35,6 +35,16 @@ BugBridge AI récupère le message, le fait analyser par un modèle de langage *
 
  **Tout tourne en local** : aucune donnée n'est envoyée à un service externe, et il n'y a aucun abonnement à une API d'IA payante.
 
+##  Du message au ticket
+
+**1. Le testeur écrit son bug dans le canal de discussion** (ici Discord, utilisé comme canal de test) :
+
+![Message du testeur](0_message_discord.png)
+
+**2. Le bug apparaît tout seul dans l'application** (ligne 1021), avec un titre clair, le produit (Reporting), la fonctionnalité (export PDF) et la sévérité remplis automatiquement :
+
+![Bug créé automatiquement](0b_bug_cree_automatiquement.png)
+
 ##  Captures d'écran
 
 ### Connexion sécurisée
