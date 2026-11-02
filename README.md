@@ -1,28 +1,28 @@
-# 🐞 BugBridge AI
+#  BugBridge AI
 
 **Transformer automatiquement un message de bug en ticket structuré grâce à l'intelligence artificielle.**
 
-> ℹ️ Ce dépôt présente le projet : l'idée, le fonctionnement et des captures d'écran de l'application. Le code source n'est pas publié.
+>  Ce dépôt présente le projet : l'idée, le fonctionnement et des captures d'écran de l'application. Le code source n'est pas publié.
 
 ---
 
-## ❌ Le problème
+##  Le problème
 
 Pendant les phases de test, les testeurs signalent les bugs dans un canal de discussion de l'équipe. Le ticket correspondant est ensuite créé **à la main** par un testeur ou un développeur.
 
 Conséquences :
-- ⏳ perte de temps ;
-- 🕳️ bugs oubliés ;
-- 🔁 doublons ;
-- 👤 dépendance à la disponibilité d'une personne.
+-  perte de temps ;
+-  bugs oubliés ;
+-  doublons ;
+-  dépendance à la disponibilité d'une personne.
 
-## 💡 L'idée
+##  L'idée
 
 > Le testeur écrit son message normalement… et le ticket se crée tout seul.
 
 BugBridge AI récupère le message, le fait analyser par un modèle de langage **exécuté en local**, vérifie les informations extraites, écarte les doublons et enregistre le bug. L'équipe suit ensuite tout depuis une application web.
 
-## ⚙️ Comment ça marche
+##  Comment ça marche
 
 1. **Le testeur** publie son message dans le canal de discussion.
    *Exemple : « Le site e-commerce est down depuis 10 minutes, plus aucune commande ne passe. »*
@@ -33,7 +33,7 @@ BugBridge AI récupère le message, le fait analyser par un modèle de langage *
 6. **SQL Server** enregistre le nouveau bug.
 7. **L'application Angular** l'affiche dans le tableau de bord.
 
-🔒 **Tout tourne en local** : aucune donnée n'est envoyée à un service externe, et il n'y a aucun abonnement à une API d'IA payante.
+ **Tout tourne en local** : aucune donnée n'est envoyée à un service externe, et il n'y a aucun abonnement à une API d'IA payante.
 
 ## 📸 Captures d'écran
 
@@ -59,7 +59,7 @@ Liste des bugs avec recherche, filtres par sévérité et changement de statut (
 Nombre de bugs et taux de résolution pour chaque produit.
 ![Produits](images/6_produits.png)
 
-## ✨ Fonctionnalités
+##  Fonctionnalités
 
 - Réception automatique des messages de bugs (webhook)
 - Extraction des informations par un modèle de langage local
@@ -71,7 +71,7 @@ Nombre de bugs et taux de résolution pour chaque produit.
 - Réinitialisation du mot de passe par e-mail
 - Mode clair / mode sombre
 
-## 🛠️ Technologies
+##  Technologies
 
 | Rôle | Technologie |
 |---|---|
@@ -82,7 +82,7 @@ Nombre de bugs et taux de résolution pour chaque produit.
 | Interface web | Angular |
 | Canal de test | Discord, discord.py |
 
-## 🚀 Perspectives
+##  Perspectives
 
 - Intégration avec Microsoft Teams
 - Suite de tests automatisés (pytest)
